@@ -42,7 +42,7 @@ namespace PhotoSpoofing
                     {
                         using (Graphics graphics = Graphics.FromImage(bitmap))
                         {
-                            using (Pen pen = new Pen(Color.Yellow, 3))
+                            using (Pen pen = new Pen(Color.Yellow, 10))
                             {
                                 graphics.DrawRectangle(pen, face);
                             }
